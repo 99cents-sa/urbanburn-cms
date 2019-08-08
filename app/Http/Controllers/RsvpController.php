@@ -102,7 +102,7 @@ class RsvpController extends Controller
 
     public function sendinginvite() {
         $guests = Rsvp::all();
-        return redirect('/rsvp/sendinvite')->with('success', 'Invites have been sent successfully!');
+        return redirect('/guests')->with('success', 'Invites have been sent successfully!');
         
     }
 }

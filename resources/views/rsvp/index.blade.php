@@ -1,9 +1,11 @@
 @extends('layouts.app')
 
 @section('content')
+
 <div class="container">
+<a href="{{ route('guests.create')}}" class="btn btn-primary">Add Guest</a><br><br>
     <div class="row justify-content-center">
-        <div class="col-md-8">
+        <div class="col-md-12">
             <div class="card uper">
   <div class="card-header">
     Guests
@@ -21,6 +23,8 @@
           <td>Guest Name</td>
           <td>Guest Email</td>
           <td>Guest Company</td>
+          <td>Responded</td>
+          <td>Attending</td>
         
          
           <td colspan="2">Action</td>
@@ -33,6 +37,8 @@
             <td>{{$guest->name}}</td>
             <td>{{$guest->email}}</td>
             <td>{{$guest->company}}</td>
+            <td>{{$guest->responded}}</td>
+            <td>{{$guest->attending}}</td>
            
             <td><a href="{{ route('guests.edit',$guest->id)}}" class="btn btn-primary">Edit</a></td>
 
