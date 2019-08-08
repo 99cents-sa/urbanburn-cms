@@ -37,8 +37,20 @@
             <td>{{$guest->name}}</td>
             <td>{{$guest->email}}</td>
             <td>{{$guest->company}}</td>
-            <td>{{$guest->responded}}</td>
-            <td>{{$guest->attending}}</td>
+            <td>
+            @if ($guest->responded == 0)
+                <p>No</p>
+            @else
+                <p>Yes</p>
+            @endif
+            </td>
+            <td>
+            @if ($guest->attending == 0)
+                <p>No</p>
+            @else
+                <p>Yes</p>
+            @endif
+            </td>
            
             <td><a href="{{ route('guests.edit',$guest->id)}}" class="btn btn-primary">Edit</a></td>
 
