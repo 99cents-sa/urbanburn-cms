@@ -17,7 +17,18 @@ class RsvpController extends Controller
 
     public function show($email)
     {
+        //$guest = DB::table('rsvps')->where('email',$email)->first();
+        //return response()->json($guest, 200);
         $guest = DB::table('rsvps')->where('email',$email)->first();
-        return response()->json($guest, 200);
+        if ($guest === null) {
+            return response()->json(['error' => 'Sorry you"re not on the guest list'], 401);
+        } else {
+            return response()->json(['success' => $guest], 200);
+        }
     }
+
+    public function attending() {
+        
+    }
+    
 }
