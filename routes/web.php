@@ -19,5 +19,9 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
+Route::get('/guests/sendinvite', 'RsvpController@sendinvite')->name('sendinvite');
+Route::get('/guests/sendinginvite', 'RsvpController@sendinginvite')->name('sendinginvite');
+
+
 
 Route::resource('guests', 'RsvpController');

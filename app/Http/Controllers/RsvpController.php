@@ -93,4 +93,16 @@ class RsvpController extends Controller
     {
         //
     }
+
+    public function sendinvite() {
+        $guests = Rsvp::all();
+        return view('rsvp/sendinvite', compact('guests'));
+       
+    }
+
+    public function sendinginvite() {
+        $guests = Rsvp::all();
+        return redirect('/rsvp/sendinvite')->with('success', 'Invites have been sent successfully!');
+        
+    }
 }
