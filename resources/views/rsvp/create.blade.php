@@ -18,7 +18,7 @@
         </ul>
       </div><br />
     @endif
-      <form method="post" action="{{ route('events.store') }}">
+      <form method="post" action="{{ route('guests.store') }}">
           <div class="form-group">
               @csrf
               <label for="name">Guest Name:</label>

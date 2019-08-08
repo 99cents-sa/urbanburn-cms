@@ -4,14 +4,17 @@
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
-            <!-- Content goes here -->
-            <div class="uper">
+            <div class="card uper">
+  <div class="card-header">
+    Guests
+  </div>
+  <div class="card-body">
   @if(session()->get('success'))
     <div class="alert alert-success">
       {{ session()->get('success') }}  
     </div><br />
   @endif
-  <table class="table table-striped">
+    <table class="table table-striped">
     <thead>
         <tr>
           <td>ID</td>
@@ -45,6 +48,12 @@
         @endforeach
     </tbody>
   </table>
-<div>
-            <!-- Content goes here -->  
+  </div>
+</div>
+                
         </div>
+    </div>
+</div>
+@endsection
+
+
