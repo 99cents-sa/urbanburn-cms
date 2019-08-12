@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 use App\Rsvp;
+use App\Mail\Invite;
 use Illuminate\Http\Request;
 
 class RsvpController extends Controller
@@ -101,8 +102,27 @@ class RsvpController extends Controller
     }
 
     public function sendinginvite() {
+
+        
+        //\Mail::to('absolom@99c.co.za')->send(new Invite);
+        
         $guests = Rsvp::all();
-        return redirect('/guests')->with('success', 'Invites have been sent successfully!');
+        //dd($guests);
+
+        foreach ($guests as $key => $value) {
+            //echo  $value["email"] . ", " . $value["price"] . "<br>";
+            \Mail::to($value["email"])->send(new Invite);
+        }
+      
+       
+        if (\Mail::failures()) {
+           //return response()->Fail('Sorry! Please try again latter');
+           return redirect('/guests')->with('Failure', 'Sorry! Please try again later!');
+         }else{
+            return redirect('/guests')->with('success', 'Invites have been sent successfully!');
+         }
+
+      
         
     }
 }
