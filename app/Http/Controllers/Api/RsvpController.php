@@ -27,8 +27,15 @@ class RsvpController extends Controller
         }
     }
 
-    public function attending() {
+    public function attending($email) {
+        //$guest = DB::table('rsvps')->where('email',$email)->first();
+        $guest = Rsvp::where('email', $email)->first();
+        $guest->attending = 1; 
+        $guest->save();
         
+       
+
+        return response()->json(['success' => 'See you at the Party'], 200);
     }
     
 }
