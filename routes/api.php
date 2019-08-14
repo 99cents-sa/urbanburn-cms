@@ -22,3 +22,5 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 Route::get('rsvps', 'Api\RsvpController@index');
 Route::get('rsvps/{rsvp}', 'Api\RsvpController@show');
 Route::post('rsvps/attending/{rsvp}', 'Api\RsvpController@attending');
+
+ Route::get('laravel-send-email', 'EmailController@sendEMail');

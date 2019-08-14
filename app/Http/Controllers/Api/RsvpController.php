@@ -33,8 +33,6 @@ class RsvpController extends Controller
         $guest->attending = 1; 
         $guest->save();
         
-       
-
         return response()->json(['success' => 'See you at the Party'], 200);
     }
     
