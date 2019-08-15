@@ -207,7 +207,7 @@ u + .em_body .em_full_wrap {
                       <td valign="top" align="center" style="padding: 10px 0 10px 0; background-color: #fed2c7;">
 						  <table width="220" border="0" cellspacing="0" cellpadding="0" align="center" style="width:220px; border:3px solid #011bbc; background-color: #fed2c7">
                           <tr style="background-color: #fed2c7">
-                            <td class="em_defaultlink" valign="middle" align="center" bgcolor="#fed2c7" height="45" style="font-family:Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif'; font-size:18px; color:#011bbc;"><a href="https://s3.amazonaws.com/99dev.co.za/urban-burn/index.html" target="_blank" style="text-decoration:none; font-weight: 500; color:#011bbc; background-color: #fed2c7; line-height:45px; display:block;">CLICK HERE TO RSVP</a></td>
+                            <td class="em_defaultlink" valign="middle" align="center" bgcolor="#fed2c7" height="45" style="font-family:Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif'; font-size:18px; color:#011bbc;"><a href="http://99dev.co.za/foreshore-fire/" target="_blank" style="text-decoration:none; font-weight: 500; color:#011bbc; background-color: #fed2c7; line-height:45px; display:block;">CLICK HERE TO RSVP</a></td>
                           </tr>
                         </table></td>
                     </tr>
