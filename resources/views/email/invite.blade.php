@@ -9,7 +9,7 @@ xmlns:o="urn:schemas-microsoft-com:office:office">
 <o:PixelsPerInch>96</o:PixelsPerInch>
 </o:OfficeDocumentSettings>
 </xml><![endif]-->
-<title>99c Presents - FORESHORE FIRE</title>
+<title>99c Presents - URBAN BURN</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0 " />
@@ -185,36 +185,15 @@ u + .em_body .em_full_wrap {
     <td align="center" valign="top"><table align="center" width="600" border="0" cellspacing="0" cellpadding="0" class="em_main_table" style="width:600px; table-layout:fixed;">
         <tr>
           <td valign="top" align="center">
-			  
-	
-
-			<!--C1 Section Start-->
-
             <table width="600" border="0" cellspacing="0" cellpadding="0" align="center" style="width:600px;" class="em_wrapper">
               <tr>
                 <td valign="top" align="center" style="padding:0px 20px 20px;">
 					<table width="560" border="0" cellspacing="0" cellpadding="0" align="center" style="width:560px;" class="em_wrapper">
                     <tr>
-                      <td valign="top" align="center"><img src="http://99dev.co.za/99party/99cParty_1.jpg" width="560" height="auto" alt="99C PRESENTS FORESHORE FIRE - 6 SEPTEMBER" border="0" style="display:block; max-width:560px; font-family:Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif'; font-size:15px; line-height:20px; color:#000000;" class="em_full_img" /></td>
+                      <td valign="top" align="center"><img src="http://99dev.co.za/99-save-the-date.png" width="560" height="auto" alt="99C PRESENTS URBAN BURN - Saturday 9 November, Hillcrest Quarry, 6pm" border="0" style="display:block; padding-top: 5px; max-width:560px; font-family:Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif'; font-size:15px; line-height:20px; color:#000000;" class="em_full_img" /></td>
                     </tr>
-					<tr>
-                      <td class="em_defaultlink" valign="top" align="center" style="font-family:Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif'; color:#011bbc; font-size:24px; background-color: #fed2c7; padding-top: 15px; padding-bottom: 10px; font-weight: 800; line-height:24px;">&nbsp;FRIDAY 6 SEPTEMBER</td>
-                    </tr>
-					<tr>
-                      <td class="em_defaultlink" valign="top" align="center" style="font-family:Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif'; color:#011bbc; font-size:13px; background-color: #fed2c7; padding: 5px 15px 5px 15px; line-height:24px;"> Like a moth to a flame burned by the fire, this party’s not to be missed &#45; just you see what transpires! We&#39;re letting go of old energy and logos, and celebrating new vibes. Look like a flame and dance away in your festival best</td>
-                    </tr>
-                    <tr>
-                      <td valign="top" align="center" style="padding: 10px 0 10px 0; background-color: #fed2c7;">
-						  <table width="220" border="0" cellspacing="0" cellpadding="0" align="center" style="width:220px; border:3px solid #011bbc; background-color: #fed2c7">
-                          <tr style="background-color: #fed2c7">
-                            <td class="em_defaultlink" valign="middle" align="center" bgcolor="#fed2c7" height="45" style="font-family:Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif'; font-size:18px; color:#011bbc;"><a href="http://99dev.co.za/foreshore-fire/" target="_blank" style="text-decoration:none; font-weight: 500; color:#011bbc; background-color: #fed2c7; line-height:45px; display:block;">CLICK HERE TO RSVP</a></td>
-                          </tr>
-                        </table></td>
-                    </tr>
-					<tr>
-                      <td valign="top" align="center"><img src="http://99dev.co.za/99party/99cParty_2.jpg" width="560" height="auto" alt="99C PRESENTS FORESHORE FIRE - 6 SEPTEMBER" border="0" style="display:block; max-width:560px; font-family:Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif'; font-size:15px; line-height:20px; color:#000000;" class="em_full_img" /></td>
-                    </tr>
-                  </table></td>
+                  </table>
+                </td>
               </tr>
             </table>
 </td>
